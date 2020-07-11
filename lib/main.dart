@@ -7,7 +7,7 @@ import 'package:firedart/firedart.dart';
 final repo = TestRepo();
 
 void main() {
-  Firestore.initialize('project-422424978958');
+  Firestore.initialize('memory-leak-repro');
   runApp(MyApp());
 }
 
